@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg+xml" href="./assets/list-checks.svg" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>To-Do List Gama</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="todo-app">
+                <h2>To-Do List</h2>
+                <strong>Escreva uma tarefa</strong>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Ex: Estudar">
+                    <button onclick="addTask()">Adicionar</button>
+                </div>
+                <ul id="list-container"></ul>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
